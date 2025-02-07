@@ -36,5 +36,8 @@ namespace ZendeskApi_v2.Models.Tickets
 
         [JsonProperty("ticket_forms")]
         public IList<TicketForm> TicketForms { get; set; }
+
+        [JsonProperty("custom_statuses")]
+        public IList<CustomStatus> CustomStatuses { get; set; }
     }
 }

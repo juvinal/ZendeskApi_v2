@@ -30,7 +30,8 @@ namespace ZendeskApi_v2.Requests
         Incident_Counts = 128,
         Ticket_Forms = 256,
         Comment_Count = 512,
-        Dates = 1024
+        Dates = 1024,
+        Custom_Statuses = 2048
     }
 
     public interface ITickets : ICore
